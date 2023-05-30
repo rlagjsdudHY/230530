@@ -15,7 +15,7 @@ public class ShopDataAccess {
 	
 	public List<GoodsInfo> mtdList() {
 		
-		String sql = "select * from memberList";
+		String sql = "select * from memberList order by num desc";
 		List<GoodsInfo> objList = jdbcTemplate.query(
 					sql,
 					new BeanPropertyRowMapper<GoodsInfo>(GoodsInfo.class)

@@ -12,7 +12,7 @@ public class GoodsInfo {
 	private String goodsName;
 	private int price;
 	private int cnt;
-	private Timestamp timestamp; 
+	private Timestamp regTM; 
 	
 	
 }
